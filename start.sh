@@ -137,4 +137,5 @@ echo -e "\nServer should be ready now."
 
 # ================= START NGROK (FOREGROUND) =================
 echo "Starting ngrok tunnel on port 8000..."
-$NGROK_BIN http --url=donkey-deep-nationally.ngrok-free.app 8000
+$NGROK_BIN 8000 #or add static domain url 
+
